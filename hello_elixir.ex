@@ -11,7 +11,7 @@ defmodule M do
     longer_str = my_str <> " is longer"
     IO.puts "#{longer_str}"
 
-    IO.puts "Equal #{"Egg" === "egg"}"
+    IO.puts "Equal #{"Egg" === "eggs"}"
 
     IO.puts "My? #{String.contains?(my_str, "My")}"
 
